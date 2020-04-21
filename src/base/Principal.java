@@ -80,9 +80,9 @@ public class Principal
 				System.out.println("0- Sair");
 				System.out.println("1- Listar Pacientes");
 				System.out.println("2- Agendar Visita");
-				System.out.println("4- Realizar Visita");
-				System.out.println("5- Enviar Menssagem");
-				System.out.println("6- Ver Menssagens");
+				System.out.println("3- Realizar Visita");
+				System.out.println("4- Enviar Menssagem");
+				System.out.println("5- Ver Menssagens");
 				opc = sc.nextInt();
 											
 				switch(opc) 
