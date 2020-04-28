@@ -4,7 +4,7 @@ public final class Sintomas
 {
 	private Sintomas () {}
 	
-	public static String[] sintomas =
+	public final static String[] sintomas =
 	{
 		"Febre",
 		"Cansaço",
@@ -16,7 +16,7 @@ public final class Sintomas
 		"Diarréia",		
 	};
 	
-	public static void VerSintomas() 
+	public final static void VerSintomas() 
 	{					
 		System.out.println("Sintomas da doença:");
 		for (int i = 0; i < sintomas.length; i++) 
